@@ -1,0 +1,8 @@
+# Target document patterns for progressive disclosure suggestions
+# One glob pattern per line. Lines starting with # are comments.
+# The hook will suggest /progressive-disclosure when an edited file
+# matches any pattern AND exceeds the line threshold.
+
+*/CLAUDE.md
+*/.claude/CLAUDE.md
+*/AGENTS.md

@@ -1,0 +1,17 @@
+{
+  "description": "Suggest /progressive-disclosure when LLM-consumed documents grow past threshold",
+  "hooks": {
+    "PostToolUse": [
+      {
+        "matcher": "Edit|Write",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "bash $CLAUDE_PLUGIN_ROOT/hooks/suggest-progressive-disclosure.sh",
+            "timeout": 5000
+          }
+        ]
+      }
+    ]
+  }
+}
