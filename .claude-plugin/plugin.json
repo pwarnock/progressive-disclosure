@@ -2,7 +2,10 @@
   "name": "progressive-disclosure",
   "version": "1.0.0",
   "description": "Progressive disclosure methodology for LLM-consumed documents — organize any doc (CLAUDE.md, AGENTS.md, system prompts, runbooks) using three-tier lazy loading",
-  "author": "Peter Warnock",
+  "author": {
+    "name": "Peter Warnock",
+    "url": "https://github.com/pwarnock"
+  },
   "keywords": [
     "progressive-disclosure",
     "lazy-prompting",
