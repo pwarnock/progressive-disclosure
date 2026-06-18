@@ -1,6 +1,6 @@
 ---
 name: progressive-disclosure
-description: "Optimize LLM instruction docs with three-tier progressive disclosure: Level 1 essentials, Level 1.5 conditional content, and Level 2 on-demand references."
+description: Optimize long instruction docs with progressive disclosure for CLAUDE.md, AGENTS.md, and runbooks.
 user_invocable: true
 ---
 
