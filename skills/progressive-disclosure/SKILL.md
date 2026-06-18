@@ -1,20 +1,6 @@
 ---
 name: progressive-disclosure
-description: |
-  Organize any LLM-consumed document using three-tier progressive disclosure (lazy prompting).
-  Goal: Maximize LLM working efficiency, NOT minimize line count.
-  Applicable to CLAUDE.md, AGENTS.md, system prompts, runbooks, and any document an LLM reads at session start.
-  Uses three tiers: Level 1 (always loaded), Level 1.5 (path-scoped or conditional), and Level 2 (on-demand via trigger conditions).
-  MUST use this skill when the user:
-  - Says "/progressive-disclosure", "optimize my instructions", "reorganize my docs"
-  - Wants to optimize, reorganize, restructure, or shrink their CLAUDE.md, AGENTS.md, or system prompt
-  - Complains the LLM ignores rules, forgets conventions, or keeps making the same mistakes
-  - Has a document over 200 lines that has grown unwieldy
-  - Mentions "progressive disclosure", "lazy prompting", "progressive discovery", "three-tier"
-  - Says things like "my instructions are too long", "Claude isn't following my rules", "context window is filling up", "reduce my prompt size", "organize my project instructions"
-  - Wants to move detailed SOPs, deployment runbooks, or reference docs out of their main instructions while keeping them accessible
-  - Asks how to structure LLM instructions so they scale as the project grows
-  Even if the user doesn't mention progressive disclosure by name, use this skill whenever the core problem is "instructions are too long or ineffective" or "the LLM doesn't follow my instructions consistently."
+description: Optimize LLM instruction docs with three-tier progressive disclosure: Level 1 essentials, Level 1.5 conditional content, and Level 2 on-demand references.
 user_invocable: true
 ---
 
